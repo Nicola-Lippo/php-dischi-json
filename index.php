@@ -21,10 +21,10 @@
                 <div class="row">
                     <div class="col-4" v-for="item in cd">
                         <div class="text-center p-3">
-                            <div></div>
+                            <img style="width: 10rem;" :src="item.img" :alt="foto">
                             <div>{{ item.name }}</div>
                             <div>{{ item.author }}</div>
-                            <div>{{ item.edition }}</div>
+                            <div><strong>{{ item.edition }}</strong></div>
                         </div>
                     </div>
                 </div>
