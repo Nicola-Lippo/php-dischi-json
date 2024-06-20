@@ -11,7 +11,7 @@
 
 <body>
     <div id="app">
-        <div>{{test}}</div>
+        <div>home</div>
     </div>
 
 
