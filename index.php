@@ -10,7 +10,9 @@
 </head>
 
 <body>
-    <div id="app">{{test}}</div>
+    <div id="app">
+        <div>{{test}}</div>
+    </div>
 
 
     <!--VUE.JS CDN-->

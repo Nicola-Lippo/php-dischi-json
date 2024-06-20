@@ -38,3 +38,7 @@ $list = [
         'edition' => '2002',
     ],
 ];
+//per trasformare array php in oggetti json
+header('Content-Type: application/json');
+// devo restituire una stringa
+echo  json_encode($list);
