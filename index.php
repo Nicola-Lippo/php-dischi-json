@@ -11,7 +11,27 @@
 
 <body>
     <div id="app">
-        <div>home</div>
+        <header>
+            <div class="container p-3 text-center">
+                <h1>CD musicali disponibili</h1>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4" v-for="item in cd">
+                        <div class="text-center p-3">
+                            <div></div>
+                            <div>{{ item.name }}</div>
+                            <div>{{ item.author }}</div>
+                            <div>{{ item.edition }}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
     </div>
 
 
