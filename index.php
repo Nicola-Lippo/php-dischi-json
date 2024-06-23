@@ -23,15 +23,16 @@
                 <div class="row">
                     <div class="col-4" v-for="item in cd">
                         <div class="text-center p-3">
-                            <img :src="item.img" alt="foto">
-                            <div>{{ item.name }}</div>
-                            <div>{{ item.author }}</div>
-                            <div><strong>{{ item.edition }}</strong></div>
+                            <img :src="item.startImg" alt="foto">
+                            <div>{{ item.startName }}</div>
+                            <div>{{ item.startAuthor }}</div>
+                            <div><strong>{{ item.startEdition }}</strong></div>
+                            <div class="d-flex justify-content-center">
+                                <button class="m-1 btn btn-dark btn-sm">descrizione</button>
+                            </div>
                         </div>
-                        <button>descrizione</button>
                     </div>
                 </div>
-            </div>
         </main>
     </div>
 
