@@ -28,12 +28,11 @@
                             <div>{{ item.author }}</div>
                             <div><strong>{{ item.edition }}</strong></div>
                         </div>
+                        <button>descrizione</button>
                     </div>
                 </div>
             </div>
         </main>
-
-
     </div>
 
 
